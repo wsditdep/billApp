@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
+
+
+.secondpage_font * {
+    font-family: 'Roboto', sans-serif;
+}
+
+.firstpage_font * {
+    font-family: 'HelveticaWorld', sans-serif;
+}
+
+.third_page * {
+    font-family: 'Jost', sans-serif;
+}
+
+$color1: #091d3e;
+
+.go_with_code {
+    margin-top: 1rem;
+    overflow: hidden;
+    margin-bottom: 3rem;
+
+    .artboard {
+        width: 24rem;
+        margin: auto;
+        padding: 0;
+        flex-direction: column;
+        position: relative;
+        z-index: 5;
+        padding-bottom: 0.6rem;
+    }
+}
+
+
+.header_mob_2 {
+    background: $color1;
+    width: 100%;
+    color: #fff;
+    padding: 0rem 1rem;
+
+    i {
+        margin-top: 4rem;
+    }
+
+    h3 {
+        margin-top: 8rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+        margin: 2rem 0 0.6rem 0;
+        color: #ebc653;
+        font-weight: 400;
+    }
+
+    p {
+        margin-bottom: 2.4rem;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+}
+
+.mob_2_amount {
+    padding: 0rem 1rem;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+
+    h3 {
+        font-size: 3rem;
+        color: #323232;
+        font-weight: 500;
+    }
+
+    p {
+        font-size: 1.8rem;
+        color: #656565;
+        margin-left: 0.5rem;
+        font-weight: 500;
+    }
+}
+
+.mob_2_amount2 {
+    padding: 0rem 1rem;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    .mob_2_amount2_wrapper {
+        border: 1px solid #81ada0;
+        padding: 0.4rem 0.8rem;
+        border-radius: 0.4rem;
+        font-size: 1rem;
+        font-weight: 600;
+
+        span {
+            color: #656565;
+            font-weight: 400;
+        }
+    }
+}
+
+.font_change_mob_2 {
+    font-family: 'HelveticaWorld', sans-serif !important;
+    margin-right: 0.1rem;
+}
+
+.withdraw_details {
+    padding: 0rem 1rem;
+    width: 100%;
+    background-color: #fff;
+
+    h3 {
+        font-size: 1.2rem;
+        color: #7b7b7b;
+        font-weight: 500;
+    }
+}
+
+.line-break {
+    height: 2px;
+    width: 100%;
+    background: #c7c7c7;
+    margin: 1rem 0 0.6rem 0;
+}
+
+.mob_2_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+
+    .mob_2_details_childs {
+        p {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #464646;
+        }
+    }
+}
+
+.mob_2_details_childs_fixes {
+    text-align: end;
+}
+
+.footer-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+    div {
+        height: 0.3rem;
+        width: 8rem;
+        background: #323232;
+        border-radius: 0.2rem;
+    }
+}
+
+.arrow-icons {
+    position: absolute;
+    z-index: 10;
+    top: 4rem;
+    left: 0.8rem;
+
+    img {
+        width: 2.6rem;
+        height: auto;
+    }
+}
+
+.arrow-icons2 {
+    position: absolute;
+    z-index: 10;
+    top: 0.8rem;
+    right: 1.2rem;
+
+    img {
+        width: 6rem;
+        height: auto;
+    }
+
+    .network-info-wrapper {
+        display: flex;
+        align-items: center;
+        .network-info-childs {
+            &:first-child {
+                img {
+                    width: 1.3rem;
+                }
+            }
+            &:nth-child(2) {
+                margin: 0.2rem 0.6rem 0 0.6rem;
+                img {
+                    width: 1.1rem;
+                }
+
+                .wifi {
+                    margin-bottom: 0.2rem;
+                }
+            }
+            &:last-child {
+                img {
+                    width: 1.8rem;
+                }
+            }
+        }
+    }
+}
+
+.arrow-icons3 {
+    position: absolute;
+    z-index: 10;
+    top: 1rem;
+    left: 1.8rem;
+
+    h3 {
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}
+
+
+.manage_usdt {
+    font-size: 4rem;
+}
+
+.usdtType77 {
+    font-size: 4rem;
+}
+
+.manage-page61-usd {
+    font-size: 6rem;
+    font-weight: 500;
+}
+.manage-page61-dollor {
+    font-size: 6rem;
+    font-weight: 500;
+}
+
+.cad_style {
+    font-size: 6rem;
+    font-weight: 500;
+    opacity: 0.6;
+}
