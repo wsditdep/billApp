@@ -11,6 +11,7 @@ const SixtyThreePage = () => {
         time: "17:27",
         amount: "229.0031 USDT",
         date: "2024-05-10 17:16:48",
+        fee: "1.6",
         walletAddress1: "TWz5p9aPr7rog61eW",
         walletAddress2: "QSoc2fFNRJWC21fCV",
         walletAddress3: "e76aefdb85482f39e2",
@@ -202,8 +203,8 @@ const SixtyThreePage = () => {
                                             letterSpacing=".02em"
                                             transform="translate(4289 1420.164)"
                                         >
-                                            <tspan x="0" y="0">
-                                                1.3
+                                            <tspan x="85" y="0" textAnchor="end">
+                                                {data.fee}
                                             </tspan>
                                         </text>
                                         <text
@@ -804,6 +805,15 @@ const SixtyThreePage = () => {
                             type="text"
                             value={data.date}
                             name="date"
+                            onChange={(e) => onChangeHandler(e)}
+                        />
+                    </div>
+                    <div className="global_form_inner">
+                        <label>Fees</label>
+                        <input
+                            type="text"
+                            value={data.fee}
+                            name="fee"
                             onChange={(e) => onChangeHandler(e)}
                         />
                     </div>

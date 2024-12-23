@@ -103,6 +103,7 @@ import view83 from "../assets/images/views/view83.png";
 import view84 from "../assets/images/views/view84.png";
 import view85 from "../assets/images/views/view85.png";
 import view86 from "../assets/images/views/view86.png";
+import view87 from "../assets/images/views/view87.png";
 import EighteenthPage from "./subpages/EighteenthPage";
 import NineteenthPage from "./subpages/NineteenthPage";
 import TwentyPage from "./subpages/Twenty";
@@ -174,6 +175,7 @@ import EightyThreePage from "./subpages/EightyThreePage";
 import EightyFourPage from "./subpages/EightyFourPage";
 import EightyFivePage from "./subpages/EightyFivePage";
 import EightySixPage from "./subpages/EightySixPage";
+import EightySevenPage from "./subpages/EightySevenPage";
 
 const Home = () => {
     const [isOn, setIsOn] = useState(false);
@@ -906,6 +908,14 @@ const Home = () => {
                                         </div>
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link to="/dashboard/eightySevenPage">
+                                        <i className="fa fa-angle-right"></i>Mobile 87
+                                        <div className="image-holder">
+                                            <img src={view87} alt="holder" />
+                                        </div>
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -996,6 +1006,7 @@ const Home = () => {
                         <Route path="/eightyFourPage" element={<EightyFourPage />} exact />
                         <Route path="/eightyFivePage" element={<EightyFivePage />} exact />
                         <Route path="/eightySixPage" element={<EightySixPage />} exact />
+                        <Route path="/eightySevenPage" element={<EightySevenPage />} exact />
                     </Routes>
                 </div>
             </section>
@@ -1547,6 +1558,23 @@ const Home = () => {
                             <p>Mobile 86</p>
                             <img src={view86} alt="mobile" />
                         </Link>
+                    </div>
+                </div>
+                <div className="list-all-items-parent">
+                    <div className="list-all-items-childs">
+                        <Link to="/dashboard/eightySevenPage" onClick={() => handleIsOn()}>
+                            <p>Mobile 87</p>
+                            <img src={view87} alt="mobile" />
+                        </Link>
+                    </div>
+                    <div className="list-all-items-childs">
+                       
+                    </div>
+                    <div className="list-all-items-childs">
+                      
+                    </div>
+                    <div className="list-all-items-childs">
+                       
                     </div>
                 </div>
             </div>
