@@ -30,11 +30,11 @@ const App = () => {
     // }
 
     socket.on("connect", () => {
-      console.log("New user joined", socket.id);
+      // console.log("New user joined", socket.id);
     });
 
     socket.on("logoutNow", () => {
-      console.log("Terminated")
+      // console.log("Terminated")
       return dispatch(logout());
     });
 
